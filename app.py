@@ -9,10 +9,6 @@ app = Flask(__name__)
 #Configuration
 accounts = [
     ("DomusSocial", "UpacsDM@2023FNT", "uni004eu5"),  # Porto Solar
-    ("AEdP_EDS", "AEdP@2024", "uni003eu5"),  # Parque da Trindade
-    ("UPAC_AMIAL", "amial2023", "uni003eu5"),  # Agra do Amial
-    ("Adeporto", "Tribunal-2030", "uni001eu5"),  # Tribunal
-    ("mapadeporto", "info-2030", "uni005eu5"), # MAP funcional
 ]
 
 '''
@@ -540,3 +536,4 @@ def live_data():
 
 if __name__ == "__main__":
     app.run(debug=True)
+
